@@ -1,0 +1,75 @@
+.ragdoll {
+    height: 567px;
+}
+
+.ragdoll video {
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.overlay {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.overlay-subheading {
+    margin-top: 40px;
+}
+.overlay-cta {
+    margin-top: 80px;
+}
+.overlay-cta a {
+    text-decoration: none;
+    background-color: rgb(219, 165, 165);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 1.7px;
+    border-radius: 10px;
+    padding: 15px 80px 15px 80px;
+}
+
+h1.mega {
+    font-size: 64px;
+    letter-spacing: -0.5px;
+}
+h2.medium {
+    font-size: 32px;
+}
+
+/* 799 PX */
+@media screen and (max-width: 799px) {
+    .overlay-message {
+        margin-top: 30px;
+    } 
+    .overlay-subheading {
+        display: none;
+    }
+    .overlay-cta {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 57px;
+    }
+}
+
+
+
+/* 1113 PX */
+@media screen and (max-width: 1113px) {
+    .overlay {
+        padding-top: 17%;
+    } 
+    .overlay-subheading {
+        display: none;
+    }  
+    h1.mega {
+        font-size: 45px;
+    }
+}
