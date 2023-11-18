@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Find A Pet Friend</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main-nav.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo250px.png" alt="Logo" class="logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Como funciona?</a></li>
+                <li><a href="adopt.html">Quero adotar</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Abrigos / Resgates</a></li>
+                <li><a href="login.html" class="selected">Log in</a></li>
+            </ul>
+            <div class="burguer">
+                <div class="burguer-line1"></div>
+                <div class="burguer-line2"></div>
+                <div class="burguer-line3"></div>
+            </div>
+        </nav>
+    </header> 
+    
+    <section class="login">
+        <h1>Login</h1>
+        <form>
+            <div class="login-text-field">
+                <input class="email" type="text" required>
+                <Label>Email / Usuário</Label>
+            </div>
+            <div class="login-text-field">
+                <input type="password" required>
+                <label>Senha</label>
+            </div>
+            <div class="forgotpassword">
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            <input type="button" value="Login" class="button-submit" id="button-submit">
+            <div class="signup-link">
+                Não tem conta? 
+                <a href="#">Criar nova conta.</a>
+            </div>
+        </form>
+    </section>
+  
+    <script src="js/login.js"></script>
+</body>
+</html>
