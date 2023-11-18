@@ -6,12 +6,21 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-family: Helvetica, 'Roboto', sans-serif;
+    color: #3b3b3b;
+    font-size: 64px;
+    padding-top: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
 .featured-pets {
     display: grid;
     grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
     grid-gap: 40px;
     padding: 60px 0;
-    padding-top: 95px;
 }
 
 .text-medium {
