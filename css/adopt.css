@@ -2,11 +2,16 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 .featured-pets {
     display: grid;
     grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
     grid-gap: 40px;
     padding: 60px 0;
+    padding-top: 95px;
 }
 
 .text-medium {

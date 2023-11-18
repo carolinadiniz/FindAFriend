@@ -1,0 +1,50 @@
+div {
+    font-family: Helvetica, 'Roboto', sans-serif;
+    color: #3b3b3b;
+}
+
+h1 {
+    font-size: 64px;
+    padding-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.abrigos {
+    display: flex;
+    justify-content: center;
+}
+
+.abrigos_cards {
+    display: inline-block;
+    margin: 30px;
+    border: #3b3b3b solid;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.logoabrigo {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.abrigo_info {
+    width: 250px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    margin: 5px 0;
+    margin-top: 20px;
+}
